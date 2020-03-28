@@ -11,9 +11,6 @@ depends=()
 makedepends=('w3m')
 source=('git+https://github.com/antipatico/esr-disc-patcher-cli.git#branch=C++11')
 md5sums=('SKIP')
-#prepare() {
-#extract_git
-#}
 
 build() {
 	cd "$srcdir"/esr-disc-patcher-cli
